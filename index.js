@@ -151,9 +151,3 @@ var Gifulator = function (_React$Component) {
 }(_react2.default.Component);
 
 exports.default = Gifulator;
-
-
-Gifulator.propTypes = {
-	imgs: _react2.default.PropTypes.array.isRequired,
-	timer: _react2.default.PropTypes.number.isRequired
-};
