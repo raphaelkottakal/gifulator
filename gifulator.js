@@ -1,5 +1,4 @@
 import React from 'react';
-import { PropType } from 'react';
 import _ from 'lodash';
 
 export default class Gifulator extends React.Component {
@@ -111,9 +110,3 @@ export default class Gifulator extends React.Component {
 
 	}
 }
-
-Gifulator.propTypes = {
-	imgs : React.PropTypes.array.isRequired,
-	timer: React.PropTypes.number.isRequired
-};
-
